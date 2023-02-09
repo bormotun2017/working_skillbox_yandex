@@ -1,0 +1,16 @@
+warning: in the working copy of 'module 1/18 breakpoints/job programm/18.3 git new program.go', LF will be replaced by CRLF the next time Git touches it
+[1mdiff --git a/module 1/18 breakpoints/job programm/18.3 git new program.go b/module 1/18 breakpoints/job programm/18.3 git new program.go[m
+[1mindex 4b53d85..48f7563 100644[m
+[1m--- a/module 1/18 breakpoints/job programm/18.3 git new program.go[m	
+[1m+++ b/module 1/18 breakpoints/job programm/18.3 git new program.go[m	
+[36m@@ -9,6 +9,10 @@[m [mfunc sumAB(a, b int) int {[m
+ func diffAB(a, b int) int {[m
+ 	return a - b[m
+ [m
+[32m+[m[32m}[m
+[32m+[m[32mfunc multAB(a, b int) int {[m
+[32m+[m	[32mreturn a * b[m
+[32m+[m
+ }[m
+ func main() {[m
+ 	fmt.Println(10)[m
